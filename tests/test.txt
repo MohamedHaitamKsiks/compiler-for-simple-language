@@ -1,0 +1,11 @@
+var k = 1;
+var f = 1;
+var n = 1;
+
+input(n);
+simo(k <= n) {
+    f = f * k;
+    k = k + 1;
+};
+
+print(f);
